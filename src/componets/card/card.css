@@ -1,0 +1,44 @@
+.card{
+    width: 19.5rem;
+    height: 19.5rem;
+    border: 1px solid #F7F8F9;
+    box-shadow: 0 0 1px 0 #505256, 0 16px 16px -1px rgba(8, 11, 14, 0.1);
+    padding-left: 1.5rem;
+    border-radius: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background: url(""); */
+}
+.loader{
+    width: 19.5rem;
+    height: 3rem;
+    border: 1px solid #F7F8F9;
+    box-shadow: 0 0 1px 0 #505256, 0 16px 16px -1px rgba(8, 11, 14, 0.1);
+    padding-left: 1.5rem;
+    border-radius: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  background-size: 100%;
+  background: linear-gradient(to left, rgb(33, 81, 129) 50%, lightblue 50%) right;
+  animation: mymove 5s infinite;
+  background-position:  left;
+}
+.loader h1{
+    color: rgb(242, 242, 242);
+    font-size: 24px;
+    
+}
+
+@keyframes mymove {
+    from {background-size: 0%;}
+    to {background-size: 200px;}
+  }

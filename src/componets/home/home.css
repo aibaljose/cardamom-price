@@ -1,0 +1,104 @@
+.hero{
+   display: flex;
+   justify-content: center;align-items: center;
+    padding-top: 160px;
+    flex-direction: column;
+    gap: 10px;
+   
+    margin-bottom: 60px;
+}
+.title{
+    font-size: 44px;
+    font-weight: 600;
+}
+.hero p{
+    max-width: 36rem;
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+.btncontainer{
+    display: flex;gap: 20px;
+}
+.btn-hero{
+    display: flex;justify-content: center;align-items: center;
+    
+    border-radius: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    color: #505256;
+    cursor: pointer;
+    border: 1px solid rgb(185, 185, 185);
+}
+.active-btn{
+    background-color: #0284FE;
+    border: none;
+    color: white;
+}
+.cardholder{
+    display: flex;justify-content: center;align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.cardc{
+    width: 19.5rem;
+    height: 5rem;
+    border: 1px solid #F7F8F9;
+    box-shadow: 0 0 1px 0 #505256, 0 16px 16px -1px rgba(8, 11, 14, 0.1);
+    padding-left: 1.5rem;
+    border-radius: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+  justify-content: space-around;
+}
+.cardc img{
+    height: 60px;
+    width: 60px;
+
+
+}
+.cardc h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(10, 93, 57);
+}
+.pricecard{
+    width: 19.5rem;
+    height: 19.5rem;
+    border: 1px solid #F7F8F9;
+    box-shadow: 0 0 1px 0 #505256, 0 16px 16px -1px rgba(8, 11, 14, 0.1);
+    padding-left: 1.5rem;
+    border-radius: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;justify-content: center;align-items: center;
+}
+.pricearea{
+    
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.pricearea h1{
+
+    font-size: 28px;
+    font-weight: 600;
+    color: #719230;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 800px) {
+ 
+    .title{
+        text-align: center;
+    }
+    .nav{
+        display: none;
+    }
+  }
